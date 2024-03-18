@@ -1,0 +1,38 @@
+.containerCard {
+  width: 357px;
+  height: 314px;
+  border-radius: 16px;
+  background-color: #ffffff;
+
+  box-shadow: 0px 0px 20px 0px #0000001a;
+}
+
+.containerContent {
+  margin-left: 23px;
+  margin-top: 23px;
+}
+.nameCard {
+  font-size: 24px;
+  font-family: "Proxima Nova Bold";
+  color: #262c40;
+}
+
+.PhoneMail {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-family: "Proxima Nova";
+  color: #8189a3;
+}
+
+.phone {
+  padding-left: 15px;
+}
+.displayCard {
+  margin-top: 33px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  width: 1120px;
+}

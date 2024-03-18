@@ -1,0 +1,45 @@
+.modalContainer {
+  width: 500px;
+  height: 468px;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px 0px #0000001a;
+  border-radius: 16px;
+  position: absolute;
+  top: 126px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.modalName {
+  display: flex;
+  justify-content: space-between;
+}
+.modalFullContent {
+  margin: 25px 25px 0px 25px;
+}
+
+.text {
+  font-size: 18px;
+  font-family: "Proxima Nova";
+  color: #262c40;
+}
+.textName {
+  font-size: 24px;
+  font-family: "Proxima Nova Bold";
+  color: #262c40;
+}
+
+.modalBlock {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-top: 20px;
+}
+.text2 {
+  font-size: 18px;
+  font-family: "Proxima Nova";
+  color: #8189a3;
+}
+
+.DopInfo {
+  margin-top: 42px;
+}

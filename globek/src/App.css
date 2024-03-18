@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container-full {
+  margin: 64px 80px 0 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contanerSearch {
+  display: flex;
+  justify-content: center;
+  margin-top: 128px;
+  margin-bottom: 60px;
+}
+
+.myinput {
+  width: 1120px;
+  height: 48px;
+  position: relative;
+}
+
+.myinput input {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 24px;
+  font-size: 20px;
+  box-shadow: 0 2px 4px#D4DEFE;
+  font-family: "Fira Sans";
+  color: #d4defe;
+  padding-left: 20px;
+  font-weight: bold;
+}
+
+.mylable {
+  position: absolute;
+  top: 12px;
+  right: 24px;
+}
